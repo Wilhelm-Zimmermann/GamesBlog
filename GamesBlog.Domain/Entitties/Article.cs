@@ -16,6 +16,8 @@
 
         public void Validate()
         {
+            ArticleTitle.Validate();
+            ArticleParagraph.Validate();
             if (ArticleTitle.IsValid && ArticleParagraph.IsValid)
             {
                 IsValid = true;

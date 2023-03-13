@@ -1,4 +1,4 @@
-﻿namespace GamesBlog.Domain.Entitties
+﻿namespace GamesBlog.Domain.Entities
 {
     public class Title
     {

@@ -10,8 +10,4 @@
     <ProjectReference Include="..\GamesBlog.Domain\GamesBlog.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>

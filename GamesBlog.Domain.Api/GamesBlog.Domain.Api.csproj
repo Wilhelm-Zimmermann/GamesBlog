@@ -9,6 +9,14 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.12" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GamesBlog.Domain.Infra\GamesBlog.Domain.Infra.csproj" />
+    <ProjectReference Include="..\GamesBlog.Domain.Shared\GamesBlog.Domain.Shared.csproj" />
+    <ProjectReference Include="..\GamesBlog.Domain\GamesBlog.Domain.csproj" />
   </ItemGroup>
 
 </Project>

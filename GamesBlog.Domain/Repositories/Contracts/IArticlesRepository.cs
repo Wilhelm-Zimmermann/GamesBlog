@@ -1,9 +1,9 @@
 ﻿
-using GamesBlog.Domain.Entitties;
+using GamesBlog.Domain.Entities;
 
 namespace GamesBlog.Domain.Repositories.Contracts
 {
-    public interface ArticleRepository
+    public interface IArticlesRepository
     {
         Task CreateArticle(Article article);
     }

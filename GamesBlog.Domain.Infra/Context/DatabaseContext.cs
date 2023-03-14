@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using GamesBlog.Domain.Entities;
-using GamesBlog.Domain.Repositories.Contracts;
 
 namespace GamesBlog.Domain.Infra.Context
 {
@@ -38,4 +37,5 @@ namespace GamesBlog.Domain.Infra.Context
                 entity.Property(x => x.CreatedAt);
             });
         }
+    }
 }

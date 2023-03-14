@@ -1,5 +1,5 @@
 ﻿using GamesBlog.Domain.Commands.Contracts;
-using GamesBlog.Domain.Entitties;
+using GamesBlog.Domain.Entities;
 
 namespace GamesBlog.Domain.Commands
 {

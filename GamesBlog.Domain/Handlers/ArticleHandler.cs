@@ -1,6 +1,6 @@
 ﻿using GamesBlog.Domain.Commands;
 using GamesBlog.Domain.Commands.Contracts;
-using GamesBlog.Domain.Entitties;
+using GamesBlog.Domain.Entities;
 using GamesBlog.Domain.Handlers.Contracts;
 
 namespace GamesBlog.Domain.Handlers
@@ -9,7 +9,7 @@ namespace GamesBlog.Domain.Handlers
     {
         public async Task<ICommandResult> Handle(CreateArticleCommand command)
         {
-            var article = new Article(command.ArticleTitle, command.ArticleParagraph, command.Image);
+            var article = new Article(command.ArticleTitle, command.ArticleParagraph, command.Image, DateTime.Now, command.BlogPostId);
 
             article.ArticleParagraph.Validate();
             article.ArticleTitle.Validate();
